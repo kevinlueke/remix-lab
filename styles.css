@@ -1,0 +1,41 @@
+*,
+*::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/**Until I do the images to make page readable**/
+img {
+  width: 300px;
+}
+
+
+main {
+  background-image: url("https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg");
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.when-where {
+  display: flex;
+  justify-content: center;
+}
+main section {
+  background-color: grey;
+  width: 50%;
+  padding: 2rem;
+  margin: 1rem;
+}
+h1 {
+  font-size: 3.5rem;
+  padding: 1rem;
+}
+main p {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style-type: none; 
+}
